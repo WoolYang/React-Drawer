@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import initReactFastclick from 'react-fastclick';
 import '../style/drawer.less';
-initReactFastclick();
 export default class Drawer extends React.Component {
 
     componentDidMount() {
